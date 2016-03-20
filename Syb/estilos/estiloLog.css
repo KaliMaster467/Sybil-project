@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Quicksand|Righteous|Comfortaa);
+body{
+	margin:0px;
+}
+*::selection {
+   background:#01E611;
+   color: white;
+}
+.main-container{
+	margin:0px;
+	background:url(../imagenes/fondo_Log.jpg) fixed;
+	padding-top:20vh;
+	
+}
+ul li a{
+	margin-top:100%;
+}
+.navbar{
+	display:none;
+	background:rgba(0, 0, 0, .6);
+	margin-bottom:4%;
+	padding-top:3%;
+	padding-bottom:.4%;
+	width:100vw;
+	height:10vh;
+	min-height:5vw;
+	border-bottom:white thin solid;
+	position:fixed;
+	top:0;
+	left:0;
+}
+.lista-nav li{
+	display:inline-block;
+	list-style: none;
+}
+.lista-nav li a{
+	text-decoration:none;
+	color:white;
+	font-size:1.5em;
+	font-family:Raleway;
+}
+.icon-bar span img{
+	display:none;
+}
+.soporte, .inicio{
+	float:right;
+	margin-right:7%;
+}
+.form-container{
+	width:30vw;
+	height:35vw;
+	background:#575757;
+	padding:5%;
+	margin:auto;
+	border-radius:10px 10px 10px 10px;
+	border:thin solid white;
+}
+.input-text{
+	width:20vw;
+	height:2vw;
+	font-family:Raleway;
+	font-size:1em;
+	background:gray;
+	color:white;
+	border: none;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-right:6%;
+	padding-left:6%;
+	border-radius:2px 2px 2px;
+}
+.btn-ingresa{
+	margin-top:4vw;
+	width:30vw;
+	font-size:1.5vw;
+	font-family:Raleway;
+	color:white;
+	background:rgba(255, 255, 255, .1);
+	border-radius:30px 30px 30px 30px;
+	border:solid thin black;
+	padding-top:5%;
+	padding-bottom:5%;	
+}
+.Iniciar-Sesion a{
+	text-decoration: none;
+}
+label{
+	color:white;
+	font-family:Raleway;
+	font-size:1.8vw;
+}
+
+
