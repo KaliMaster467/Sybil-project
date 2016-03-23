@@ -1,0 +1,316 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Quicksand|Righteous|Comfortaa);
+body{
+	margin:0px;
+}
+*::selection {
+   background: #A81818;
+   color: white;
+}
+.main-container{
+	margin:0px;
+	background:url(../imagenes/fondo.jpg);
+}
+.descripcion{
+
+	margin-right:5%;
+	padding-right:5%;
+	padding-left:5%;
+	border-radius:5px 5px 5px 5px;
+	width:50vw;
+}
+.lista-nav{
+	margin:0px;
+}
+.section-two{
+	padding-top:9vw;
+	background:orange;
+}
+.lista-nav li{
+	display:inline-block;
+	list-style: none;
+}
+.section-tres{
+	background:url(../imagenes/mapa.jpg);	
+}
+.btn-ini{
+	border-radius:30px 30px 30px 30px;
+	color:white;
+	width:17vw;
+	font-size:1.7vw;
+	font-family:Raleway;
+	background:rgba(255, 255, 255, .1);
+	border:solid white;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-left:4%;
+	padding-right:4%;
+	border-width:thin;
+	margin-right:7%;
+}
+.section-dos{
+	background:white;
+}
+.lista-nav li a{
+	text-decoration:none;
+	color:white;
+	font-size:1.5em;
+	font-family:Raleway;
+}
+.link-ar{
+	text-decoration:none;
+	color:white;
+	font-size:1.5em;
+	font-family:Raleway;
+}
+.lista-navDos{
+	margin:0px;
+}
+.lista-navDos li{
+	display:inline-block;
+	list-style: none;
+}
+.lista-navDos li a{
+	text-decoration:none;
+	color:black;
+	font-size:1.5em;
+	font-family:Raleway;	
+}
+table{
+	display:inline-block;
+	float:right;
+	width:70vw;
+	height:10vh;
+	padding-top:0vh;
+}
+td{
+	padding:1%;
+}
+.titulos-tables{
+	font-family:Raleway;
+	font-size:2.5vw;
+}	
+#anuncio{
+	float:left;
+	width:45%;
+	height:30%;
+	
+}
+#anuncio-dos{
+	width:50%;
+	height:30%;
+	float:right;
+}
+#anuncio-dos p{
+	font-family:Raleway;
+	text-align:justify;
+	font-size:1.3vw;
+
+}
+.letra-tabla{
+	font-family:Raleway;
+	text-align:justify;
+	font-size:1.3vw;
+	color:white;	
+}
+.first-row{
+	float:left;
+}
+#anuncio p{
+	font-family:Raleway;
+	text-align:justify;
+	font-size:1.3vw;
+}
+
+.links-abajo{
+	text-decoration:none;
+	color:black;
+	font-size:1.5em;
+	font-family:Raleway;		
+}
+.fuente-menu{
+	text-decoration:none;
+	color:black;
+	font-size:1.5em;
+	font-family:Raleway;	
+}
+.primer-parrafo{
+	color:white;
+	font-size:1.8vw;
+	font-family:Raleway;
+}
+.navbar{
+	background:rgba(255, 255, 255, .1);
+	margin-bottom:4%;
+	padding-top:3%;
+	padding-bottom:.4%;
+	width:100vw;
+	height:10vh;
+	border-bottom:white thin solid;
+	position:fixed;
+	top:0;
+	left:0;
+}
+.primera-descripcion{
+	margin-right:5vh;
+	margin-left:5vh;
+	padding-top:15vh;
+	height:50vh;
+}
+ul li a{
+	margin-top:100%;
+}
+.ladroncito{
+	padding-top:5vh;
+	width:20%;
+	height:60%;
+	margin-right:0%;
+}
+.navbarcero{
+	background:rgba(255, 255, 255, .9);
+	margin-bottom:4%;
+	padding-top:3%;
+	padding-bottom:.4%;
+	width:100vw;
+	box-shadow:2px 1px 2px black;
+	height:10vh;
+	border-bottom:black thin solid;
+	position:fixed;
+	top:0;
+	left:0;
+}
+.desenfoque{
+	background:rgba(0, 0, 0, .4);
+	width:100%;
+	height:100%;
+}
+.ladron-icon{
+	padding-top:15vh;
+	width:20%;
+	height:15%;
+	margin-left:5%;
+}
+.primer-texto{
+	padding-top:15vw;
+	padding-bottom:12%;
+	box-shadow:2px 1px 2px black;
+
+}
+.titulo{
+	color:white;
+	font-size:3.5vw; 
+	font-family:Raleway;
+}
+.soporte, .inicio, .log-in{
+	float:right;
+	margin-right:7%;
+}
+.icon-bar span img{
+	display:none;
+}
+.descripcion{
+	background:rgba(255, 255, 255, .0);
+	float:right;
+	padding-top:10vh;
+}
+@media all and (max-height: 420px){
+	.ladron-icon{
+		display:none;
+	}
+	.main-container{
+		height:40%;
+	}
+}
+@media all and(max-width: 750px){
+	.inicio{
+		display:none;
+	}
+}
+@media all and (max-width: 600px) {
+	aside{
+		background:red;
+		visibility:hidden;
+	}
+
+	.descripcion{
+		float:none;
+		border-radius:0px 0px 0px 0px;
+		background:rgba(255,255,255, 1);
+		padding-top:3%;
+		padding-right:auto;
+	}
+	.icon-bar{
+		float:right;
+		margin-right:5vw;
+	}
+	.icon-bar span img{
+		display:inline-block;
+		float:right;
+		width:30%;
+		margin:0 auto;
+
+	}
+	.primer-texto{
+		padding:0 auto;
+	}
+	.main-container{
+		background:white;
+		width:100vw;
+	}
+	.btn-ini{
+	border-radius:30px 30px 30px 30px;
+	color:black;
+	width:17vw;
+	font-size:2.8vw;
+	font-family:Raleway;
+	background:rgba(255, 255, 255, .1);
+	border:solid black;
+	padding-top:2%;
+	padding-bottom:2%;
+	padding-left:4%;
+	padding-right:4%;
+	border-width:thin;
+	margin-right:7%;
+}
+	.ladron-icon{
+		display:none;
+	}
+	.ladroncito{
+		display:none;
+	}
+	.primer-texto{
+		padding-top:2vw;
+	}
+	.descripcion h1, .descripcion p{
+		font-size:5vw;
+		color:black;
+	}
+	.navbar{
+	background:rgba(255, 255, 255, .1);
+	margin-bottom:4%;
+	padding-top:3%;
+	padding-bottom:.4%;
+	width:100vw;
+	height:10vh;
+	border-bottom:black thin solid;
+	position:fixed;
+	top:0;
+	}
+	.brand a{
+		color:black;
+	}
+	header{
+		height:30%;
+		padding-top:10vh;
+
+	}
+	table tr td{
+		display:inline;
+	}
+	.inicio a, .soporte a, .log-in a{
+		display:none;
+	}
+	.brand a{
+		color:black;
+	}
+	
+}

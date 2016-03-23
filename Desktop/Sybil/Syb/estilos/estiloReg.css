@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway|Quicksand|Righteous|Comfortaa);
+body{
+	margin:0px;
+}
+header{
+	margin:0px;
+	background:url(../imagenes/Registro.jpg);
+	padding-top:20vh;
+}
+.icon-bar span img{
+	display:none;
+}
+.lista-nav{
+	margin:0px;
+}
+.lista-nav li{
+	display:inline-block;
+	list-style:none;
+}
+.lista-nav li a{
+	text-decoration:none;
+	color:white;
+	font-size:1.5em;
+	font-family:Raleway;
+}
+.soporte, .inicio, .log-in{
+	float:right;
+	margin-right:7%;
+}
+.navbar{
+	display:none;
+	background:rgba(255, 255, 255, .1);
+	margin-bottom:4%;
+	padding-top:3%;
+	padding-bottom:.4%;
+	width:100vw;
+	height:10vh;
+	border-bottom:white thin solid;
+	position:fixed;
+	top:0;
+	left:0;
+}
+.form-container{
+	background:gray;
+	width:40vw;
+	height:50vw;
+}
