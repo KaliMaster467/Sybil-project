@@ -70,7 +70,7 @@
 		<article class="alado-del-poli">
 			<hgroup class="poli">
 				<h1>
-					La policía nos ayuda.. a
+					La policía nos ayuda.. 
 				</h1>
 			</hgroup>
 			<p class="des-poli">
